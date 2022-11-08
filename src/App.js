@@ -10,7 +10,7 @@ function App() {
         <img src={brand} className="App-brand" alt="brand" />
         <p>
           The portfolio of a{" "}
-          <span className="highlight">Computer Engineering</span>.
+          <span className="highlight">Computer Engineer</span>.
         </p>
       </header>
       <div className="App-motiv">
