@@ -1,7 +1,6 @@
 import "./App.css";
 import brand from "./images/brand.svg";
 import logo from "./images/AC.svg";
-import perfil from "./images/perfil.svg";
 import MotivWord from "./components/motivWord";
 
 function App() {
@@ -11,7 +10,7 @@ function App() {
         <img src={brand} className="App-brand" alt="brand" />
         <p>
           The portfolio of a{" "}
-          <span className="highlight">Computer Engineering</span> student.
+          <span className="highlight">Computer Engineering</span>.
         </p>
       </header>
       <div className="App-motiv">
@@ -23,12 +22,10 @@ function App() {
           <span className="highlight">Alejandro Calleja Herrador</span> and this
           is my portfolio. I consider myself a hard-working and involved person,
           with great facility to adapt to different environments. <br />
-          <br /> At the moment I am working at AEG Power Solutions Ibérica S.A
-          while I am studying a degree in Computer Engineering at Mondragon
-          Unibertsitatea. In the future I would like to continue my professional
-          development in data analysis or web development.
+          <br /> At the moment, I am working on my Bachelor's degree Final Project about Machine Learning at{" "} 
+          <span className="highlight">Infineon Technologies AG</span>. In the future, I would like to continue my professional
+          development with a Master in data analysis or maybe give a try to web development.
         </p>
-        {/* <img src={perfil} className="App-perfil" alt="perfil" /> */}
       </div>
       <div className="App-motiv">
         <MotivWord word="effort." />

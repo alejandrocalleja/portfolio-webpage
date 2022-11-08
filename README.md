@@ -78,3 +78,10 @@ docker run \
  -p 3000:3000 \
  --name portfolio-webpage \
  alejandrocalleja/portfolio-webpage
+
+ # Problems when deploying
+When trying to use git from a terminal in vscode. The problem comes from the authentication handler of vscode. To solve the problem:
+1. Open vscode File > Preferences > Settings
+2. Search for git.terminalAuthentication
+3. Uncheck the option
+You have to re-open the terminal to make it work.
