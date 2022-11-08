@@ -28,7 +28,7 @@ function App() {
           Unibertsitatea. In the future I would like to continue my professional
           development in data analysis or web development.
         </p>
-        <img src={perfil} className="App-perfil" alt="perfil" />
+        {/* <img src={perfil} className="App-perfil" alt="perfil" /> */}
       </div>
       <div className="App-motiv">
         <MotivWord word="effort." />
