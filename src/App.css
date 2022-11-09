@@ -40,6 +40,33 @@
   justify-content: center;
 }
 
+.App-card-container {
+    align-items: center;
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+}
+
+.App-card-grid {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 24px 24px;
+    max-width: 100%;
+    width: 90%;
+}
+
+@media (min-width: 540px) {
+    .App-card-grid{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (min-width: 960px) {
+    .App-card-grid{
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
 .App-about {
   color: white;
   min-height: 100vh;

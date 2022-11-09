@@ -2,6 +2,7 @@ import "./App.css";
 import brand from "./images/brand.svg";
 import logo from "./images/AC.svg";
 import MotivWord from "./components/motivWord";
+import Card from "./components/card";
 
 function App() {
   return (
@@ -29,6 +30,18 @@ function App() {
       </div>
       <div className="App-motiv">
         <MotivWord word="effort." />
+      </div>
+      <div className="App-card-container">
+        <div className="App-card-grid">
+            <Card link='https://www.google.es' imgUrl='url("https://upload.wikimedia.org/wikipedia/commons/1/18/React_Native_Logo.png")'
+                category='Test category' heading='Test heading'/>
+            <Card link='https://www.google.es' imgUrl='url("https://upload.wikimedia.org/wikipedia/commons/1/18/React_Native_Logo.png")'
+                category='Test category' heading='Test heading'/>
+            <Card link='https://www.google.es' imgUrl='url("https://upload.wikimedia.org/wikipedia/commons/1/18/React_Native_Logo.png")'
+                category='Test category' heading='Test heading'/>
+            <Card link='https://www.google.es' imgUrl='url("https://upload.wikimedia.org/wikipedia/commons/1/18/React_Native_Logo.png")'
+                category='Test category' heading='Test heading'/>
+        </div>
       </div>
       <div className="App-motiv">
         <MotivWord word="dedication." />
