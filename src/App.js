@@ -33,14 +33,18 @@ function App() {
       </div>
       <div className="App-card-container">
         <div className="App-card-grid">
-            <Card link='https://www.google.es' imgUrl='url("https://upload.wikimedia.org/wikipedia/commons/1/18/React_Native_Logo.png")'
-                category='Test category' heading='Test heading'/>
-            <Card link='https://www.google.es' imgUrl='url("https://upload.wikimedia.org/wikipedia/commons/1/18/React_Native_Logo.png")'
-                category='Test category' heading='Test heading'/>
-            <Card link='https://www.google.es' imgUrl='url("https://upload.wikimedia.org/wikipedia/commons/1/18/React_Native_Logo.png")'
-                category='Test category' heading='Test heading'/>
-            <Card link='https://www.google.es' imgUrl='url("https://upload.wikimedia.org/wikipedia/commons/1/18/React_Native_Logo.png")'
-                category='Test category' heading='Test heading'/>
+            <Card link='https://github.com/gorkalertxundi/ecrop' 
+                imgUrl='url("https://i.ibb.co/bKTwVWh/ecrop-example.png")'
+                category='Project Based Learning' 
+                heading='eCrop'/>
+            <Card link='https://github.com/alejandrocalleja/PBL5' 
+                imgUrl='url("https://pbs.twimg.com/profile_images/1468968799114174467/uzCgWxzP_400x400.jpg")'
+                category='Project Based Learning' 
+                heading='DeckLearn'/>
+            <Card link='https://github.com/alejandrocalleja/Robot-Mugikor-Autonomoa' 
+                imgUrl='url("https://www.conveyco.com/wp-content/uploads/2019/11/AMR-product-line.jpg")'
+                category='Project Based Learning' 
+                heading='Simulated Autonomous Mobile Robot (AMR)'/>
         </div>
       </div>
       <div className="App-motiv">
